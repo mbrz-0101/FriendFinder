@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FriendFinder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <br>
+      <h1>Survey Questions</h1>
+      <br>
+      <form>
+        <h3>About You</h3>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Name (Required)</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" style="width: 75%" id="name-input">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Link to Photo Image</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" placeholder="https://images.google.com/?cute_kitten.jpg" style="width: 75%" id="photo-src">
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <h4>Question 1</h4>
+          <label for="exampleFormControlSelect1">Your mind is always buzzing with unexplored ideas and plans.</label>
+          <select class="form-control" id="q1" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 2</h4>
+          <label for="exampleFormControlSelect1">Generally speaking, you rely more on your experience than your imagination.</label>
+          <select class="form-control" id="q2" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 3</h4>
+          <label for="exampleFormControlSelect1">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+          <select class="form-control" id="q3" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 4</h4>
+          <label for="exampleFormControlSelect1">You rarely do something just out of sheer curiosity.</label>
+          <select class="form-control" id="q4" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 5</h4>
+          <label for="exampleFormControlSelect1">People can rarely upset you.</label>
+          <select class="form-control" id="q5" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 6</h4>
+          <label for="exampleFormControlSelect1">It is often difficult for you to relate to other people’s feelings.</label>
+          <select class="form-control" id="q6" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 7</h4>
+          <label for="exampleFormControlSelect1">In a discussion, truth should be more important than people’s sensitivities.</label>
+          <select class="form-control" id="q7" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 8</h4>
+          <label for="exampleFormControlSelect1">You rarely get carried away by fantasies and ideas.</label>
+          <select class="form-control" id="q8" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 9</h4>
+          <label for="exampleFormControlSelect1">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+          <select class="form-control" id="q9" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <h4>Question 10</h4>
+          <label for="exampleFormControlSelect1">You feel more energetic after spending time with a group of people.</label>
+          <select class="form-control" id="q10" style="width: 30%">
+            <option>**Select**</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+      </form>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+
+  <script type="text/javascript">
+    // Question: What does this code do?
+    $("#submit-button").on("click", function (event) {
+      event.preventDefault();
+      var newCharacter = {
+        name: $("#name-input").val().trim(),
+        photo: $("#photo-src").val().trim(),
+        scores: [$("#q1").val().trim(), $("#q2").val().trim(), $("#q3").val().trim(), $("#q4").val().trim(), $("#q5").val().trim(), $("#q6").val().trim(), $("#q7").val().trim(), $("#q8").val().trim(), $("#q9").val().trim(), $("#q10").val().trim()]
+      };
+
+      // Question: What does this code do??
+      $.post("/api/friends", newCharacter)
+        .then(function (data) {
+          alert(`Your best friend is ${data.name}`);
+        });
+
+    });
+  </script>
+
+</body>
+
+</html>
